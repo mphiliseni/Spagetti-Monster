@@ -1,0 +1,203 @@
+/* Base Styles */
+body {
+    background-color: black;
+    color: #f5f5f5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+/* Light Mode Styles */
+body.light-mode {
+    background-color: #f5f5f5;
+    color: black;
+}
+
+/* Profile Image */
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 50px;
+    cursor: pointer; /* Pointer for click effect */
+}
+
+/* Profile Zoom Hover (Optional) */
+.profile-pic:hover {
+    transform: scale(1.05);
+}
+
+/* Heading */
+h1 {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+/* Subtitle */
+.subtitle {
+    font-size: 1.2em;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+/* Social Icons */
+.social-icons {
+    margin: 15px 0;
+}
+
+.social-icons a {
+    color: inherit;
+    margin: 0 10px;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+/* Hover Effect - Bounce & Color Change */
+.social-icons a:hover {
+    transform: scale(1.3); /* Slight zoom effect */
+    color: #8010e3; /* Red color on hover */
+}
+
+/* Navigation */
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    color: #9b59b6;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    color: gray;
+    font-size: 0.9em;
+}
+
+/* Theme Toggle Button */
+#theme-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    color: inherit;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+#theme-toggle:hover {
+    color: #9b59b6;
+}
+
+#particle-section {
+    position: relative;
+    height: 400px; /* Adjust based on your preference */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent; 
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0; /* Behind the content */
+}
+
+.content {
+    position: relative;
+    z-index: 1; /* On top of particles */
+    text-align: center;
+    color: inherit; /* Inherit color for dark/light mode */
+}
+
+/* Light Mode Styles */
+body.light-mode {
+    background-color: white;
+    color: black;
+}
+
+/* Update other elements for light mode if necessary */
+body.light-mode .subtitle {
+    color: darkgray;
+}
+
+body.light-mode nav a {
+    color: #5834db;
+}
+
+body.light-mode footer {
+    color: darkgray;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .profile-pic {
+        width: 100px;
+        height: 100px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .subtitle {
+        font-size: 1em;
+    }
+
+    .social-icons a {
+        font-size: 1em;
+        margin: 0 5px;
+    }
+
+    nav a {
+        font-size: 1em;
+        margin: 0 10px;
+    }
+
+    footer {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-pic {
+        width: 80px;
+        height: 80px;
+    }
+
+    h1 {
+        font-size: 1.2em;
+    }
+
+    .subtitle {
+        font-size: 0.9em;
+    }
+
+    .social-icons a {
+        font-size: 0.9em;
+        margin: 0 3px;
+    }
+
+    nav a {
+        font-size: 0.9em;
+        margin: 0 5px;
+    }
+
+    footer {
+        font-size: 0.7em;
+    }
+}
