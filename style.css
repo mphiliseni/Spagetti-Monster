@@ -76,12 +76,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Footer */
-footer {
-    margin-top: 50px;
-    color: gray;
-    font-size: 0.9em;
-}
+
 
 /* Theme Toggle Button */
 #theme-toggle {
@@ -168,9 +163,7 @@ body.light-mode footer {
         margin: 0 10px;
     }
 
-    footer {
-        font-size: 0.8em;
-    }
+   
 }
 
 @media (max-width: 480px) {
@@ -197,7 +190,120 @@ body.light-mode footer {
         margin: 0 5px;
     }
 
-    footer {
-        font-size: 0.7em;
-    }
+   
+}
+main#About {
+    text-align: center;
+    padding: 20px;
+}
+
+main#About .lg-heading {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+main#About .sm-heading {
+    font-size: 1.5rem;
+    color: var(--text-secondary-color);
+}
+
+.about-info {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-areas: 
+        'bioimage bio bio' 
+        'skills skills skills'
+        'experience experience experience'
+        'social social social';
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    align-items: start;
+}
+
+.profile-pic {
+    grid-area: bioimage;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    justify-self: end;
+}
+
+.bio {
+    grid-area: bio;
+}
+
+.text-secondary {
+    color:#5834db;
+}
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.project {
+    padding: 20px;
+    background-color: var(--card-background-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project h2 {
+    margin-top: 0;
+    color: #000;
+}
+
+.project-links {
+    margin-top: 10px;
+}
+
+.project-links a {
+    margin: 0 10px;
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+.project-links a:hover {
+    text-decoration: underline;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: var(--footer-background-color);
+    color: var(--footer-text-color);
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+/* Light Theme */
+:root {
+    --background-color: #f9f9f9;
+    --text-color: #000;
+    --nav-background-color: #333;
+    --nav-text-color: white;
+    --card-background-color: #fff;
+    --link-color: #333;
+    --footer-background-color: #333;
+    --footer-text-color: white;
+}
+
+/* Dark Theme */
+body.dark-mode {
+    --background-color: #333;
+    --text-color: #f9f9f9;
+    --nav-background-color: #222;
+    --nav-text-color: #f9f9f9;
+    --card-background-color: #444;
+    --link-color: #f9f9f9;
+    --footer-background-color: #222;
+    --footer-text-color: #f9f9f9;
+}
+
+body.dark-mode .blog-post {
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
 }
