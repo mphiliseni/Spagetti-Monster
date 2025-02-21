@@ -20,6 +20,7 @@ body.light-mode {
     width: 120px;
     height: 120px;
     border-radius: 50%;
+    color: #f5f5f5;
     margin-top: 50px;
     cursor: pointer; /* Pointer for click effect */
 }
@@ -208,7 +209,7 @@ main#About .sm-heading {
 }
 
 .about-info {
-    display: grid;
+    display: flex;
     grid-gap: 30px;
     grid-template-areas: 
         'bioimage bio bio' 
@@ -217,7 +218,8 @@ main#About .sm-heading {
         'social social social';
     grid-template-columns: repeat(3, 1fr);
     padding: 20px;
-    align-items: start;
+    align-items: center;
+    justify-content: center;
 }
 
 .profile-pic {
