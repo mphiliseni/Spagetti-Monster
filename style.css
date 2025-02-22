@@ -122,7 +122,7 @@ nav a:hover {
 
 /* Light Mode Styles */
 body.light-mode {
-    background-color: white;
+    background-color: #f5f5f5;
     color: black;
 }
 

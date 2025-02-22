@@ -16,10 +16,103 @@
         <a href="blog.html">Blog</a>
         <a href="Project.html">Projects</a>
         <a href="about.html">About</a>
-        <a href="Resume.html">Résumé</a>
+        <a href="Resume.html">Honors / Awards</a>
     </nav>
 
-    <h1 style="margin-top: 50px" >Add resume informations seaction</h1>
+    <!-- <h1 style="margin-top: 50px" >Add resume informations seaction</h1> -->
+    <section id="awards">
+         <!-- <h2>Awards</h2> -->
+        <div class="award">
+            <img src="/images/Microsoft_logo.png" alt="Award Logo" class="award-logo">
+            <div class="award-details">
+                <h3>Microsoft Certified: Azure Developer Associate</h3>
+                <h4>Microsoft - Online Verifiable, 2024</h4>
+                <p >Build end-to-end solutions in Microsoft Azure to create Azure Functions, <br/>
+                    implement and manage web apps, develop solutions utilizing Azure storage, and more</p>
+                <a href="https://source-link.com" target="_blank">Learn more</a>
+            </div>
+        </div>
+        <div class="award">
+            <img src="/images/Microsoft_logo.png" alt="Award Logo" class="award-logo">
+            <div class="award-details">
+                <h3>Microsoft Certified: Azure Developer Associate</h3>
+                <h4>Microsoft - Online Verifiable, 2024</h4>
+                <p >Build end-to-end solutions in Microsoft Azure to create Azure Functions, <br/>
+                    implement and manage web apps, develop solutions utilizing Azure</p>
+                <a href="https://source-link.com" target="_blank">Learn more</a>
+            </div>
+        </div>
+        <div class="award">
+            <img src="/images/Microsoft_logo.png" alt="Award Logo" class="award-logo">
+            <div class="award-details">
+                <h3>Microsoft Certified: Azure Developer Associate</h3>
+                <h4>Microsoft - Online Verifiable, 2024</h4>
+                <p >Build end-to-end solutions in Microsoft Azure to create Azure Functions, <br/>
+                    implement and manage web apps, develop solutions utilizing Azure</p>
+                <a href="https://source-link.com" target="_blank">Learn more</a>
+            </div>
+        </div>
+        
+    </section>
+
+    <style>
+        #awards {
+            margin: 20px;
+            padding: 20px;
+            
+            border-radius: 5px;
+            max-width: fit-content;
+            margin: 0 auto;
+            margin-top: 50px;
+        }
+
+        .award {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .award-logo {
+            width: 50px;
+            height: 50px;
+            margin-right: 20px;
+        }
+
+        .award-details {
+            flex: 1;
+            text-align: left;
+        }
+
+        .award-details h3 {
+            margin: 0;
+            font-size: 1.2em;
+            margin-top: 20px;
+        }
+
+        .award-details p {
+            margin: 5px 0;
+        }
+
+        .award-details a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        .award-details a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            .award {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .award-logo {
+                margin-bottom: 10px;
+            }
+        }
+    </style>
 
     <footer>Mphiliseni @ 2025 <a href="#"><i class="fas fa-rss" style="color: blueviolet;"></i></a></footer>
     <button id="theme-toggle" aria-label="Toggle Dark/Light Mode">
