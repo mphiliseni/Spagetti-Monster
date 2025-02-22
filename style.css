@@ -309,3 +309,84 @@ body.dark-mode .blog-post {
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
     border-radius: 15px;
 }
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+.skill-btn {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.skill-btn i {
+    margin-right: 8px;
+}
+.skill-btn:hover {
+    background-color: #ddd;
+}
+.experience {
+    width: 400px;
+    padding: 20px;
+    text-align: left;
+}
+.job {
+    display: flex;
+    align-items: start;
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 40px;
+}
+.job::before {
+    content: "";
+    position: absolute;
+    left: 15px;
+    top: 5px;
+    width: 2px;
+    height: 100%;
+    background: #ccc;
+}
+.job:last-child::before {
+    display: none;
+}
+.icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+.icon img {
+    width: 100%;
+    height: 100%;
+}
+.details {
+    margin-left: 10px;
+}
+.company {
+    font-weight: bold;
+    color: #0073e6;
+    text-decoration: none;
+}
+.company:hover {
+    text-decoration: underline;
+}
+.title {
+    font-size: 14px;
+    color: #666;
+}
+.current {
+    background: #e6f0ff;
+    padding: 10px;
+    
+}
