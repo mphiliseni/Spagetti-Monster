@@ -25,7 +25,7 @@ window.addEventListener('DOMContentLoaded', () => {
 particlesJS('particles-js', {
     particles: {
         number: {
-            value: 80,
+            value: 100,
             density: { enable: true, value_area: 800 }
         },
         color: { value: "#f5f5f5" },
@@ -40,7 +40,7 @@ particlesJS('particles-js', {
             anim: { enable: false }
         },
         size: {
-            value: 3,
+            value: 4,
             random: true,
             anim: { enable: false }
         },
