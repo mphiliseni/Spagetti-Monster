@@ -11,7 +11,7 @@
    ![Image 2025-02-23 at 14 30](https://github.com/user-attachments/assets/5f4868f7-4a1a-4f3c-b38f-526405c379ab)
 
 
-    ## Importance of Having a Nice Portfolio as a Developer
+## Importance of Having a Nice Portfolio as a Developer
 
 A well-crafted portfolio is crucial for developers for several reasons:
 
