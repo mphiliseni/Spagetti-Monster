@@ -21,7 +21,7 @@ Investing time in creating and maintaining a nice portfolio can significantly im
     
     Draft planning
     
-  ![plan_102228](https://github.com/user-attachments/assets/82127489-7598-4e0c-8180-1fb002e2f273)
+  ![Logic-Page2 drawio](https://github.com/user-attachments/assets/8ed5d830-c237-4c29-9bfa-cfcd65ec246b)
   
 
   ![Image 2025-02-14 at 18 13](https://github.com/user-attachments/assets/10bf7a36-a7ad-459d-970f-6a842dda55ba)
@@ -31,5 +31,6 @@ Investing time in creating and maintaining a nice portfolio can significantly im
 
 
 ![Image 2025-02-23 at 14 30](https://github.com/user-attachments/assets/5f4868f7-4a1a-4f3c-b38f-526405c379ab)
+
 
 
