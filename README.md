@@ -23,7 +23,7 @@ Investing time in creating and maintaining a nice portfolio can significantly im
     
   ![Logic-Page2 drawio](https://github.com/user-attachments/assets/8ed5d830-c237-4c29-9bfa-cfcd65ec246b)
   
-
+    Dark Theme
   ![Image 2025-02-14 at 18 13](https://github.com/user-attachments/assets/10bf7a36-a7ad-459d-970f-6a842dda55ba)
 
 
